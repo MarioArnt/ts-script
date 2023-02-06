@@ -1,0 +1,15 @@
+{
+  "name": "ts-script-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --require ./suppress-experimental-warnings.js --enable-source-maps --loader ./loader.mjs index.mts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.3.32"
+  }
+}
